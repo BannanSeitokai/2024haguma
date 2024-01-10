@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 30px;
+}
+.graduation {
+  padding: 50px 10% 0 10%;
+  background: linear-gradient(180deg, #0095ff70, transparent);
+}
+.graduation > span {
+  display: block;
+}
+span.bigsubtitle {
+  font-size: 17px;
+}
+span.bigtitle {
+  font-size: 24px;
+}
+span.author {
+  margin-right: 10%;
+  display: block;
+  text-align: right;
+}
+/* 
+.middle {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 10%;
+}
+*/
+.middle {
+  margin: 50px 10%;
+  width: 80%;
+}
+.table {
+  width: 40%;
+}
+.link {
+  margin-left: 15px;
+}
+.title {
+  width: 100%;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+}
+.text > .title {
+  border: none;
+  margin: 5px 0;
+  padding: 0 10px;
+  width: calc(100% - 20px);
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+.content > .text > .title {
+  font-size: 18px;
+}
+.index {
+  margin-top: 15px;
+}
+div.link > span, div.linkupstream > a, div.link > a {
+  display: block;
+}
+.linkupstream {
+  margin-top: 10px;
+}
+/* 
+.content {
+  width: 55%;
+}
+*/
+.text {
+  margin-bottom: 30px;
+}
+.line {
+  display: flex;
+  justify-content: flex-start;
+}
+.letter {
+  margin-left: 5px;
+}
+img {
+  width: 50%;
+}
+.points {
+  margin-left: 5%;
+}
+.button {
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+  color: -webkit-link;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.footer {
+  padding: 50px 10%;
+  width: 80%;
+  background-color: #525252;
+  display: flex;
+}
+.footer > div {
+  line-height: 20px;
+}
+.footer > div > p > a {
+  color: #ffffff;
+}
+.footer > div > p > a:visited {
+  color: #ffffff;
+}
+.footerleft > p > a {
+  text-decoration: none;
+}
+.footerleft > a, .footerleft > a:visited > p {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footerleft > p > a > span:last-child {
+  font-size: 25px;
+  line-height: 40px;
+}
+.footermiddle, .footerright {
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  .middle {
+    display: block;
+  }
+  .table {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    margin-top: 50px;
+  }
+  img {
+    width: 100%;
+  }
+  .points {
+    margin-left: 10%;
+  }
+  .footer {
+    display: block;
+  }
+}
