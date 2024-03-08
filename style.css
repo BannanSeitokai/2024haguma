@@ -59,7 +59,7 @@ img {
   width: 50%;
   display: block;
 }
-.button {
+#area, #desks2, #desks3, #cardboard {
   border: none;
   background: transparent;
   text-decoration: underline;
