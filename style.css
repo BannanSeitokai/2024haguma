@@ -10,42 +10,30 @@ body {
 .graduation > span {
   display: block;
 }
-span.bigsubtitle {
+h1 {
+  font-size: 24px
+}
+h2 {
   font-size: 17px;
 }
-span.bigtitle {
-  font-size: 24px;
-}
-span.author {
+.author {
   margin-right: 10%;
   display: block;
   text-align: right;
 }
-/* 
-.middle {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 10%;
-}
-*/
-.middle {
+.content {
   margin: 50px 10%;
   width: 80%;
+  box-sizing: border-box;
 }
-.table {
-  width: 40%;
-}
-.link {
-  margin-left: 15px;
-}
-.title {
+h3 {
   width: 100%;
   display: block;
   font-size: 20px;
   font-weight: bold;
   border-bottom: 1px solid #000000;
 }
-.text > .title {
+h4 {
   border: none;
   margin: 5px 0;
   padding: 0 10px;
@@ -53,39 +41,19 @@ span.author {
   background-color: #000000;
   color: #ffffff;
   font-weight: bold;
-}
-.content > .text > .title {
   font-size: 18px;
 }
-.index {
-  margin-top: 15px;
-}
-div.link > span, div.linkupstream > a, div.link > a {
-  display: block;
-}
-.linkupstream {
-  margin-top: 10px;
-}
-/* 
-.content {
-  width: 55%;
-}
-*/
-.text {
+ol {
   margin-bottom: 30px;
 }
-.line {
-  display: flex;
-  justify-content: flex-start;
-}
-.letter {
-  margin-left: 5px;
+.attention {
+  padding: 5px 10px;
+  background-color: #525252;
+  color: #ffffff;
+  margin-right: 10px;
 }
 img {
   width: 50%;
-}
-.points {
-  margin-left: 5%;
 }
 .button {
   border: none;
@@ -128,21 +96,13 @@ img {
 }
 
 @media screen and (max-width: 700px) {
-  .middle {
-    display: block;
-  }
-  .table {
-    width: 100%;
-  }
   .content {
+    display: block;
     width: 100%;
     margin-top: 50px;
   }
   img {
     width: 100%;
-  }
-  .points {
-    margin-left: 10%;
   }
   .footer {
     display: block;
