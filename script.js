@@ -1,5 +1,5 @@
 // Header
-fetch("/2024haguma/header.html").then((response) => response.text()).then((data) => document.querySelector(".header").innerHTML = data);
+fetch("/2024haguma/top.html").then((response) => response.text()).then((data) => document.querySelector(".top").innerHTML = data);
 
 // Footer
 fetch("/2024haguma/footer.html").then((response) => response.text()).then((data) => document.querySelector(".footer").innerHTML = data);
