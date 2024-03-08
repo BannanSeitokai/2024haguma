@@ -1,8 +1,8 @@
 // Header
-fetch("header.html").then((response) => response.text()).then((data) => document.querySelector(".header").innerHTML = data);
+fetch("/2024haguma/header.html").then((response) => response.text()).then((data) => document.querySelector(".header").innerHTML = data);
 
 // Footer
-fetch("footer.html").then((response) => response.text()).then((data) => document.querySelector(".footer").innerHTML = data);
+fetch("/2024haguma/footer.html").then((response) => response.text()).then((data) => document.querySelector(".footer").innerHTML = data);
 
 // Production
 const area = document.getElementById('area');
