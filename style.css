@@ -10,6 +10,32 @@ body {
 .graduation > span {
   display: block;
 }
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+.index {
+  width: 20%;
+  margin: 50px 0 50px 10%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #e2e2e2;
+  height: 100%;
+}
+.index > h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.active {
+  display: block;
+}
+.list > p > a, .list > ol > li > a {
+  color: #000000;
+}
+.list > p {
+  padding-left: 10px;
+  border-left: 3px solid #001e69;
+}
 h1 {
   font-size: 24px
 }
@@ -105,13 +131,23 @@ img {
 @media screen and (max-width: 700px) {
   .content {
     display: block;
-    width: 100%;
-    margin: 50px 0;
+    width: 90%;
+    margin: 50px 5%;
   }
   img {
     width: 100%;
   }
   .footer {
     display: block;
+  }
+  .flex {
+    display: block;
+  }
+  .index {
+    width: 90%;
+    margin: 50px 5%;
+  }
+  .index > .list {
+    display: none;
   }
 }
