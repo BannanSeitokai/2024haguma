@@ -49,6 +49,9 @@ h4 {
 ol {
   margin-bottom: 30px;
 }
+ol > li > ol {
+  margin-bottom: 0;
+}
 .attention {
   padding: 5px 10px;
   background-color: #525252;
