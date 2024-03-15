@@ -5,7 +5,7 @@ fetch("/2024haguma/top.html").then((response) => response.text()).then((data) =>
 fetch("/2024haguma/footer.html").then((response) => response.text()).then((data) => document.querySelector(".footer").innerHTML = data);
 
 // Index
-document.getElementById('indexopen').addEventListener('click', function() { document.getElementsByClassName('list').classList.toggle('active') });
+document.getElementById('indexopen').addEventListener('click', function() { document.getElementsByClassName('list').classList.toggle('active'); });
 
 // Production
 const area = document.getElementById('area');
