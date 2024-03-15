@@ -96,6 +96,28 @@ img {
 .hidden {
   display: none;
 }
+#back {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background: #001e69;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#back > span {
+  content: "";
+  margin: auto;
+  position: fixed;
+  right: 26.5px;
+  bottom: 22.5px;
+  width: 14px;
+  height: 14px;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  transform: rotate(-45deg);
+}
 .footer {
   padding: 50px 10%;
   width: 80%;
