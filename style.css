@@ -100,6 +100,9 @@ img {
 .hidden {
   display: none;
 }
+.content > ol > li > .flex > div:last-child {
+  margin-left: 15px;
+}
 #back {
   width: 50px;
   height: 50px;
