@@ -164,6 +164,9 @@ img {
   img {
     width: 100%;
   }
+  .content > ol > li > .flex > div:last-child {
+    margin-left: 0;
+  }
   .footer {
     display: block;
   }
