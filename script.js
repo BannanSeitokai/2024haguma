@@ -11,8 +11,6 @@ document.getElementById('indexopen').addEventListener('click', function() { list
 // ToggleImages
 const area = document.getElementById('area');
 const areaimg = document.getElementById('areaimg');
-const cardboard = document.getElementById('cardboard');
-const cardboardimg = document.getElementById('cardboardimg');
 const orgpic = document.getElementById('orgpic');
 const orgpicimg = document.getElementById('orgpicimg');
 const division = document.getElementById('division');
@@ -21,7 +19,6 @@ const timetablepic = document.getElementById('timetablepic');
 const timetablepicimg = document.getElementById('timetablepicimg');
 
 area.addEventListener('click', function() { areaimg.classList.toggle('hidden'); });
-cardboard.addEventListener('click', function() { cardboardimg.classList.toggle('hidden'); });
 orgpic.addEventListener('click', function() { orgpicimg.classList.toggle('hidden'); });
 division.addEventListener('click', function() { divisionimg.classList.toggle('hidden'); });
 timetablepic.addEventListener('click', function() { timetablepicimg.classList.toggle('hidden'); });
