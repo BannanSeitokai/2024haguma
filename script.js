@@ -17,8 +17,17 @@ const desks3 = document.getElementById('desks3');
 const desks3img = document.getElementById('desks3img');
 const cardboard = document.getElementById('cardboard');
 const cardboardimg = document.getElementById('cardboardimg');
+const orgpic = document.getElementById('orgpic');
+const orgpicimg = document.getElementById('orgpicimg');
+const division = document.getElementById('division');
+const divisionimg = document.getElementById('divisionimg');
+const timetablepic = document.getElementById('timetablepic');
+const timetablepicimg = document.getElementById('timetablepicimg');
 
 area.addEventListener('click', function() { areaimg.classList.toggle('hidden'); });
 desks2.addEventListener('click', function() { desks2img.classList.toggle('hidden'); });
 desks3.addEventListener('click', function() { desks3img.classList.toggle('hidden'); });
 cardboard.addEventListener('click', function() { cardboardimg.classList.toggle('hidden'); });
+orgpic.addEventListener('click', function() { orgpicimg.classList.toggle('hidden'); });
+division.addEventListener('click', function() { divisionimg.classList.toggle('hidden'); });
+timetablepic.addEventListener('click', function() { timetablepicimg.classList.toggle('hidden'); });

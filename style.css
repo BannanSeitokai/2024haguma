@@ -90,7 +90,7 @@ img {
   width: 50%;
   display: block;
 }
-#area, #desks2, #desks3, #cardboard {
+#area, #desks2, #desks3, #cardboard, #orgpic, #division, #timetablepic {
   border: none;
   background: transparent;
   text-decoration: underline;
@@ -163,6 +163,9 @@ img {
   }
   img {
     width: 100%;
+  }
+  .content > ol > li > .flex > div:last-child {
+    margin-left: 0;
   }
   .footer {
     display: block;
