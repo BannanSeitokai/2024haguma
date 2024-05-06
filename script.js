@@ -8,13 +8,9 @@ fetch("/2024haguma/footer.html").then((response) => response.text()).then((data)
 const list = document.getElementById('list');
 document.getElementById('indexopen').addEventListener('click', function() { list.classList.toggle('active'); });
 
-// Production
+// ToggleImages
 const area = document.getElementById('area');
 const areaimg = document.getElementById('areaimg');
-const desks2 = document.getElementById('desks2');
-const desks2img = document.getElementById('desks2img');
-const desks3 = document.getElementById('desks3');
-const desks3img = document.getElementById('desks3img');
 const cardboard = document.getElementById('cardboard');
 const cardboardimg = document.getElementById('cardboardimg');
 const orgpic = document.getElementById('orgpic');
@@ -25,8 +21,6 @@ const timetablepic = document.getElementById('timetablepic');
 const timetablepicimg = document.getElementById('timetablepicimg');
 
 area.addEventListener('click', function() { areaimg.classList.toggle('hidden'); });
-desks2.addEventListener('click', function() { desks2img.classList.toggle('hidden'); });
-desks3.addEventListener('click', function() { desks3img.classList.toggle('hidden'); });
 cardboard.addEventListener('click', function() { cardboardimg.classList.toggle('hidden'); });
 orgpic.addEventListener('click', function() { orgpicimg.classList.toggle('hidden'); });
 division.addEventListener('click', function() { divisionimg.classList.toggle('hidden'); });
